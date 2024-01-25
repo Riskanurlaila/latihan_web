@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(perpus.jpg);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .library {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .book-image {
+            max-width: 50px;
+            max-height: 70px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="library">
+    <h2>Data Buku Perpustakaan</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Cover</th>
+                <th>Judul Buku</th>
+                <th>Pengarang</th>
+                <th>Tahun Terbit</th>
+                <th>Kategori</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img class="book-image" src="harry potter.jpeg" alt="Book Cover"></td>
+                <td>Harry Potter and the Philosopher's Stone</td>
+                <td>J.K. Rowling</td>
+                <td>1997</td>
+                <td>Fiksi Fantasi</td>
+            </tr>
+            <tr>
+                <td><img class="book-image" src="antropologi.jpeg" alt="Book Cover"></td>
+                <td>Antropologi Kesehatan</td>
+                <td>George M Foster</td>
+                <td>2008</td>
+                <td>Antropologi</td>
+            </tr>
+            <tr>
+                <td><img class="book-image" src="adm.jpeg" alt="Book Cover"></td>
+                <td>Administrasi Pembangunan</td>
+                <td>Prof Dr Sondang</td>
+                <td>2009</td>
+                <td>Ekonomi</td>
+            </tr>
+            <tr>
+                <td><img class="book-image" src="fisika.jpeg" alt="Book Cover"></td>
+                <td>Fisika Kesehatan</td>
+                <td>Ahmad Ruslan</td>
+                <td>2009</td>
+                <td>Fisika</td>
+            </tr>
+            <tr>
+                <td><img class="book-image" src="psk.jpeg" alt="Book Cover"></td>
+                <td>Psikologi Positif</td>
+                <td>Tristiadi</td>
+                <td>2009</td>
+                <td>Psikologi</td>
+            </tr>
+            <tr>
+                <td><img class="book-image" src="dilan.jpeg" alt="Book Cover"></td>
+                <td>Dilan 1990</td>
+                <td>pidi Baiq</td>
+                <td>2019</td>
+                <td>fiksi</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<a href="signup.html">></a>
+</body>
+</html>
